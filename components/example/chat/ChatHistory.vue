@@ -2,9 +2,9 @@
   <div class="chat-history">
     <v-toolbar dense class="chat-history-toolbar">
       <v-text-field flat solo full-width clearable prepend-icon="search" label="Search"></v-text-field>
-    </v-toolbar>  
+    </v-toolbar>
     <vue-perfect-scrollbar class="chat-history--scrollbar">
-      <v-divider></v-divider>             
+      <v-divider></v-divider>
       <v-list two-line class="chat-history--list">
         <v-subheader>History</v-subheader>
         <template v-for="(item, index) in chats">
@@ -26,15 +26,15 @@
             </v-list-tile-action>
           </v-list-tile>
         </template>
-      </v-list>  
-    </vue-perfect-scrollbar>  
+      </v-list>
+    </vue-perfect-scrollbar>
   </div>
 </template>
 
 <script>
 import { Groups } from '@/api/chat';
 import { getUserById } from '@/api/user';
-import VCircle from '@/components/circle/VCircle';
+import VCircle from '@/components/example/circle/VCircle';
 import Util from '@/util';
 import VuePerfectScrollbar from 'vue-perfect-scrollbar';
 export default {
@@ -62,7 +62,7 @@ export default {
       return item.users.length === 1 ? username : item.title;
     },
     randomAvatarColor (item) {
-      return item.users.length === 1 
+      return item.users.length === 1
         ? ''
         : Util.randomElement(['blue', 'indigo', 'success', 'error', 'pink']);
     },
@@ -70,7 +70,7 @@ export default {
     chatStatusColor (item) {
       return Util.randomElement(['blue', 'indigo', 'success', 'error', 'pink']);
     }
-  }  
+  }
 };
 </script>
 

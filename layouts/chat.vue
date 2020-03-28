@@ -42,7 +42,7 @@
 
 <script>
   import API from '@/api';
-  import ChatMenu from '../components/chat/ChatMenu';
+  import ChatMenu from '../components/example/chat/ChatMenu';
   import VuePerfectScrollbar from 'vue-perfect-scrollbar';
 
   export default {

@@ -33,7 +33,7 @@
 
 <script>
   import {getUser} from '@/api/user';
-  import VCircle from '@/components/circle/VCircle';
+  import VCircle from '@/components/example/circle/VCircle';
   import VuePerfectScrollbar from 'vue-perfect-scrollbar';
 
   export default {

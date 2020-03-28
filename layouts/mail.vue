@@ -91,7 +91,7 @@
 
 <script>
   import {MailMenu} from '@/api/mail';
-  import Compose from '../components/email/Compose';
+  import Compose from '../components/example/email/Compose';
 
   export default {
     components: {

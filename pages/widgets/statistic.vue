@@ -78,9 +78,9 @@
 </template>
 
 <script>
-  import MiniStatistic from '@/components/widgets/statistic/MiniStatistic';
-  import LinearStatistic from '@/components/widgets/statistic/LinearStatistic';
-  import CircleStatistic from '@/components/widgets/statistic/CircleStatistic';
+  import MiniStatistic from '@/components/example/widgets/statistic/MiniStatistic';
+  import LinearStatistic from '@/components/example/widgets/statistic/LinearStatistic';
+  import CircleStatistic from '@/components/example/widgets/statistic/CircleStatistic';
 
   export default {
     components: {

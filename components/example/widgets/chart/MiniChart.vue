@@ -8,7 +8,7 @@
           <span class="grey--text">{{subTitle}} <v-icon small :color="iconColor">{{icon}}</v-icon></span>
         </div>
         <div class="chart">
-          <e-chart 
+          <e-chart
             :path-option="computeChartOption"
             height="68px"
             width="100%"
@@ -17,11 +17,11 @@
         </div>
       </div>
     </v-card-text>
-  </v-card>     
+  </v-card>
 </template>
 
 <script>
-import EChart from '@/components/chart/echart';
+import EChart from '@/components/example/chart/echart';
 export default {
   components: {
     EChart

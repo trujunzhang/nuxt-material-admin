@@ -55,11 +55,11 @@
 </template>
 
 <script>
-  import AppDrawer from '@/components/AppDrawer'
-  import AppToolbar from '@/components/AppToolbar'
-  import AppFab from '@/components/AppFab'
-  import PageHeader from '@/components/PageHeader'
-  import ThemeSettings from '@/components/ThemeSettings'
+  import AppDrawer from '@/components/core/AppDrawer'
+  import AppToolbar from '@/components/core/AppToolbar'
+  import AppFab from '@/components/core/AppFab'
+  import PageHeader from '@/components/core/PageHeader'
+  import ThemeSettings from '@/components/core/ThemeSettings'
 
   export default {
     components: {

@@ -359,7 +359,7 @@
 </template>
 
 <script>
-  import EChart from '@/components/chart/echart';
+  import EChart from '@/components/example/chart/echart';
   import {
     StackData,
     SinData,
@@ -368,9 +368,9 @@
     locationData,
   } from '@/api/chart';
   import Material from 'vuetify/es5/util/colors';
-  import MiniChart from '@/components/widgets/chart/MiniChart';
-  import BoxChart from '@/components/widgets/chart/BoxChart';
-  import VWidget from '@/components/VWidget';
+  import MiniChart from '@/components/example/widgets/chart/MiniChart';
+  import BoxChart from '@/components/example/widgets/chart/BoxChart';
+  import VWidget from '@/components/base/VWidget';
 
   export default {
     components: {

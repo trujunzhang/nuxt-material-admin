@@ -18,13 +18,13 @@
           <v-flex sm12 v-if="showWindow">
             <chat-contact-profile></chat-contact-profile>
           </v-flex>
-        </v-layout>        
+        </v-layout>
       </template>
     </v-container>
 </template>
 <script>
-import ChatContactList from '../../../components/chat/ChatContactList';
-import ChatContactProfile from '../../../components/chat/ChatContactProfile';
+import ChatContactList from '../../../components/example/chat/ChatContactList';
+import ChatContactProfile from '../../../components/example/chat/ChatContactProfile';
 export default {
   components: {
     ChatContactList,
@@ -42,7 +42,7 @@ export default {
     },
     showWindow () {
       return this.$route.params.uuid !== undefined;
-    },    
+    },
   },
 };
 </script>

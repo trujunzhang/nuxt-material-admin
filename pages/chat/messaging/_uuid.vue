@@ -25,8 +25,8 @@
   </v-container>
 </template>
 <script>
-  import ChatHistory from '../../../components/chat/ChatHistory';
-  import ChatWindow from '../../../components/chat/ChatWindow';
+  import ChatHistory from '../../../components/example/chat/ChatHistory';
+  import ChatWindow from '../../../components/example/chat/ChatWindow';
   export default {
     components: {
       ChatHistory,

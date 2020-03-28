@@ -33,11 +33,11 @@
 </template>
 
 <script>
-  import VWidget from '@/components/VWidget';
-  import EventForm from '@/components/widgets/form/EventForm';
-  import ContactForm from '@/components/widgets/form/ContactForm';
-  import PaymentForm from '@/components/widgets/form/PaymentForm';
-  import ShipmentForm from '@/components/widgets/form/ShipmentForm';
+  import VWidget from '@/components/base/VWidget';
+  import EventForm from '@/components/example/widgets/form/EventForm';
+  import ContactForm from '@/components/example/widgets/form/ContactForm';
+  import PaymentForm from '@/components/example/widgets/form/PaymentForm';
+  import ShipmentForm from '@/components/example/widgets/form/ShipmentForm';
 
   export default {
     components: {

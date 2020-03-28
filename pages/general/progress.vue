@@ -106,7 +106,7 @@
 </template>
 
 <script>
-  import VWidget from '@/components/VWidget';
+  import VWidget from '@/components/base/VWidget';
 
   export default {
     components: {
