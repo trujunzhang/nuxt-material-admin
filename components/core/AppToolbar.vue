@@ -54,7 +54,7 @@
   </v-toolbar>
 </template>
 <script>
-  import NotificationList from '@/components/widgets/list/NotificationList';
+  import NotificationList from '@/components/example/widgets/list/NotificationList';
   import Util from '@/util';
 
   export default {
