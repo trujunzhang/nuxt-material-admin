@@ -5,7 +5,10 @@ const VuetifyLoaderPlugin = require('vuetify-loader/lib/plugin')
 
 module.exports = {
   mode: 'spa',
-
+  server: {
+    port: 8080, // default: 3000
+    host: 'localhost' // default: localhost
+  },
   /*
   ** Headers of the page
   */
